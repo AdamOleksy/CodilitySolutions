@@ -7,3 +7,4 @@ set(CMAKE_CXX_FLAGS "-g -O0 -Wall -Wextra -pedantic")
 
 add_executable(BinaryGap BinaryGap.cpp)
 add_executable(CyclicRotation CyclicRotation.cpp)
+add_executable(OddOccurrencesInArray OddOccurrencesInArray.cpp)
