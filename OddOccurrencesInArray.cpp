@@ -14,10 +14,9 @@ int main()
 
 int solution(vector<int> &A) {
 
-    cout << endl;
-
     if(!A.size())
         return 0;
+
     if(A.size() == 1)
         return A[0];
 
