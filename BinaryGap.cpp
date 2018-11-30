@@ -7,7 +7,8 @@ int main()
     std::cout << solution(1041);
 }
 
-int solution(int N) {
+int solution(int N)
+{
 
     int binaryGap = 0;
     int biggestGap = 0;

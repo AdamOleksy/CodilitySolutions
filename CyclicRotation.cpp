@@ -16,7 +16,8 @@ int main()
 
 }
 
-vector<int> solution(vector<int> &A, int K) {
+vector<int> solution(vector<int> &A, int K)
+{
 
     if(K == 0 || A.size() == (unsigned int)K || A.size() == 0)
         return A;

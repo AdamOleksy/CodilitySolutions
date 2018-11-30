@@ -12,7 +12,8 @@ int main()
     cout << solution(A);
 }
 
-int solution(vector<int> &A) {
+int solution(vector<int> &A)
+{
 
     if(!A.size())
         return 0;
